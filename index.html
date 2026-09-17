@@ -7,8 +7,8 @@
   <meta name="theme-color" content="#ffffff">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <title>Chia sẻ Source & Công cụ miễn phí - an toàn - chất lượng</title>
-  <script type="module" crossorigin src="/assets/index-CwfnwYwM.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-CLNLYQqJ.css">
+  <script type="module" crossorigin src="/assets/index-CrwIIotM.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-aidfS-Qc.css">
 </head>
 <body>
   <header class="topbar">
@@ -52,7 +52,18 @@
         <p>DANH MỤC</p>
         <button class="side-link" type="button" data-side-filter="source"><span class="side-icon">&lt;/&gt;</span><span>Source</span></button>
         <button class="side-link" type="button" data-side-filter="client"><span class="side-icon">▣</span><span>Client</span></button>
-        <button class="side-link" type="button" data-side-filter="game"><span class="side-icon">♧</span><span>Game</span></button>
+        <button class="side-link" type="button" data-side-filter="game" data-game-toggle aria-expanded="false" aria-controls="game-subfilters"><span class="side-icon">♧</span><span>Game</span></button>
+        <div id="game-subfilters" class="game-subfilters" hidden>
+          <button class="game-subfilter active" type="button" data-game-filter="all"><span class="game-short">ALL</span><span class="game-full">Tất cả game</span></button>
+          <button class="game-subfilter" type="button" data-game-filter="nro"><span class="game-short">NRO</span><span class="game-full">Ngọc Rồng Online</span></button>
+          <button class="game-subfilter" type="button" data-game-filter="nso"><span class="game-short">NSO</span><span class="game-full">Ninja School Online</span></button>
+          <button class="game-subfilter" type="button" data-game-filter="avt"><span class="game-short">AVT</span><span class="game-full">Avatar</span></button>
+          <button class="game-subfilter" type="button" data-game-filter="htth"><span class="game-short">HTTH</span><span class="game-full">Hải Tặc Tí Hon</span></button>
+          <button class="game-subfilter" type="button" data-game-filter="kpah"><span class="game-short">KPAH</span><span class="game-full">Khí Phách Anh Hùng</span></button>
+          <button class="game-subfilter" type="button" data-game-filter="hso"><span class="game-short">HSO</span><span class="game-full">HSO</span></button>
+          <button class="game-subfilter" type="button" data-game-filter="lang-la"><span class="game-short">LL</span><span class="game-full">Làng Lá</span></button>
+          <button class="game-subfilter" type="button" data-game-filter="rong-than"><span class="game-short">RT</span><span class="game-full">Rồng Thần Online</span></button>
+        </div>
         <button class="side-link" type="button" data-side-filter="tool"><span class="side-icon">⌕</span><span>Tool</span></button>
       </div>
 
